@@ -2897,7 +2897,7 @@ INLINE void bmove( void )
 	}
 }
 
-INLINE void move( void ) __attribute__ ((overloadable))
+INLINE void move( void ) 
 {
 	UINT8	t;
 
@@ -2907,6 +2907,7 @@ INLINE void move( void ) __attribute__ ((overloadable))
 	X++;
 	U--;
 }
+
 
 /* CLRD inherent -0100 */
 INLINE void clrd( void )
